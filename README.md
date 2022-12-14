@@ -1,16 +1,29 @@
-# flutter_app_obasnenie5pr
+Тема: Передача данных между экранами
+Цель работы: Реализовать передачу данных между экранами.
+Реализовать передачу данных через параметр arguments и сохранение данных в SharedPrefrences.
+Ход работы: 
+1)	Для начала создаем класс где обновляем данные
+ ![image](https://user-images.githubusercontent.com/96495867/207605108-5222cf94-c646-4756-a6ff-893b01bc1b9a.png)
 
-A new Flutter project.
+Рисунок 21 – класс
+2)	С помощью Shared Preference создаем удаление и сохранение данных
+ ![image](https://user-images.githubusercontent.com/96495867/207605125-73c9e464-43f3-4b35-a1a3-ef1151ef0815.png)
 
-## Getting Started
+Рисунок 22 – Сохранение и Удаление
+3)	Кликер
+ ![image](https://user-images.githubusercontent.com/96495867/207605146-b02eae0d-6f3a-47bf-976f-385232ce33c4.png)
 
-This project is a starting point for a Flutter application.
+Рисунок 23 – кликер
+4)	Верстка
+ ![image](https://user-images.githubusercontent.com/96495867/207605180-21913b28-911b-449a-8b29-46dd2fabadfd.png)
 
-A few resources to get you started if this is your first Flutter project:
+Рисунок 24 – верстка
+5)	Верстка 
+ ![image](https://user-images.githubusercontent.com/96495867/207605199-2e9340cc-0816-4217-8a6e-d8cc8b99ac98.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Рисунок 25 – верстка
+6)	Вывод с помощью аргумента на втором экране
+ ![image](https://user-images.githubusercontent.com/96495867/207605219-7eb0a07e-1290-46c8-b8bc-7292de7e645d.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Рисунок 26 – вывод на втором экране
+Вывод: В ходе данной практической работы были получены навыки в работе с SharedPrefernce и RouteSetting, передача значений через ModalRoute в другое окно с помощью аргументов
